@@ -85,9 +85,9 @@ DOMAIN-SUFFIX,douyucdn.cn,DIRECT
 // others
 DOMAIN-KEYWORD,geosite:cn,DIRECT
 
-Domain-keyword,Skype.com, direct
-Domain-keyword,microsoft.com, direct
-domain-keyword,omtrdc.net, direct
+DOMAIN-KEYWORD,Skype.com, DIRECT
+DOMAIN-KEYWORD,microsoft.com, DIRECT
+DOMAIN-KEYWORD,omtrdc.net, DIRECT
 DOMAIN-KEYWORD,anz.com,DIRECT
 DOMAIN-KEYWORD,sogou.com,DIRECT
 DOMAIN-KEYWORD,2345.com,DIRECT
@@ -1391,6 +1391,26 @@ DOMAIN-KEYWORD,samsungdm.com,DIRECT
 
 
 
+DOMAIN-KEYWORD,nvidia.com,DIRECT
+DOMAIN-KEYWORD,microsoft.com,DIRECT
+DOMAIN-KEYWORD,timeanddate.com,DIRECT
+DOMAIN-KEYWORD,nuget.org,DIRECT
+DOMAIN-KEYWORD,xgimi.com,DIRECT
+
+DOMAIN-KEYWORD,vultr.com,DIRECT
+DOMAIN-KEYWORD,hsbc.com.au,DIRECT
+DOMAIN-KEYWORD,flightradar24.com,DIRECT
+DOMAIN-KEYWORD,mi.com,DIRECT
+DOMAIN-KEYWORD,amlogic.com,DIRECT
+DOMAIN-KEYWORD,alibaba.com,DIRECT
+DOMAIN-KEYWORD,bing.com,DIRECT
+DOMAIN-KEYWORD,bingj.com,DIRECT
+DOMAIN-KEYWORD,cloudflare.com,DIRECT
+DOMAIN-KEYWORD,godaddy.com,DIRECT
+DOMAIN-KEYWORD,mxtoolbox.com,DIRECT
+
+
+
 DOMAIN-KEYWORD,whatsapp.com,PROXY
 DOMAIN-KEYWORD,xbvpn.com,PROXY
 DOMAIN-KEYWORD,gource.io,PROXY
@@ -1455,33 +1475,19 @@ DOMAIN-KEYWORD,synergy.net.au,PROXY
 DOMAIN-KEYWORD,android.com,PROXY
 DOMAIN-KEYWORD,quora.com,PROXY
 DOMAIN-KEYWORD,wikipedia.org,PROXY
-DOMAIN-KEYWORD,nvidia.com,DIRECT
-DOMAIN-KEYWORD,microsoft.com,DIRECT
-DOMAIN-KEYWORD,timeanddate.com,DIRECT
-DOMAIN-KEYWORD,nuget.org,DIRECT
-DOMAIN-KEYWORD,xgimi.com,DIRECT
+
+
+
+
+
+
 DOMAIN-KEYWORD,slashdot.org,PROXY
-DOMAIN-KEYWORD,vultr.com,DIRECT
-DOMAIN-KEYWORD,hsbc.com.au,DIRECT
-DOMAIN-KEYWORD,flightradar24.com,DIRECT
-DOMAIN-KEYWORD,!192.168.*,DIRECT
-DOMAIN-KEYWORD,!10.*,DIRECT
-DOMAIN-KEYWORD,mi.com,DIRECT
-DOMAIN-KEYWORD,amlogic.com,DIRECT
-DOMAIN-KEYWORD,alibaba.com,DIRECT
 DOMAIN-KEYWORD,googleapis.com,PROXY
 DOMAIN-KEYWORD,googleusercontent.com,PROXY
 DOMAIN-KEYWORD,gstatic.com,PROXY
 DOMAIN-KEYWORD,fbcdn.net,PROXY
 DOMAIN-KEYWORD,facebook.com,PROXY
 DOMAIN-KEYWORD,abc.net.au,PROXY
-DOMAIN-KEYWORD,bing.com,DIRECT
-DOMAIN-KEYWORD,bingj.com,DIRECT
-DOMAIN-KEYWORD,cloudflare.com,DIRECT
-DOMAIN-KEYWORD,godaddy.com,DIRECT
-DOMAIN-KEYWORD,mxtoolbox.com,DIRECT
-
-
 
 // ==== proxy rules ====
 //
@@ -1503,6 +1509,8 @@ USER-AGENT,*Pinterest*,PROXY
 USER-AGENT,*Instagram*,PROXY
 
 DOMAIN-KEYWORD,geosite:google,PROXY
+DOMAIN-KEYWORD,geosite:facebook,PROXY
+DOMAIN-KEYWORD,geosite:instagram,PROXY
 DOMAIN-KEYWORD,geosite:github,PROXY
 DOMAIN-KEYWORD,geosite:netflix,PROXY
 DOMAIN-KEYWORD,geosite:steam,PROXY
@@ -1617,6 +1625,22 @@ DOMAIN-SUFFIX,line-scdn.net,REMOTE
 DOMAIN-SUFFIX,line.me,REMOTE
 DOMAIN-SUFFIX,naver.jp,REMOTE
 DOMAIN-SUFFIX,googlevideo.com,REMOTE
+DOMAIN-KEYWORD,geosite:google,REMOTE
+DOMAIN-KEYWORD,geosite:facebook,REMOTE
+DOMAIN-KEYWORD,geosite:instagram,REMOTE
+DOMAIN-KEYWORD,geosite:github,REMOTE
+DOMAIN-KEYWORD,geosite:netflix,REMOTE
+DOMAIN-KEYWORD,geosite:steam,REMOTE
+DOMAIN-KEYWORD,geosite:telegram,REMOTE
+DOMAIN-KEYWORD,geosite:tumblr,REMOTE
+DOMAIN-KEYWORD,geosite:speedtest,REMOTE
+DOMAIN-KEYWORD,geosite:bbc,REMOTE
+DOMAIN-KEYWORD,domain:gvt1.com,REMOTE
+DOMAIN-KEYWORD,domain:textnow.com,REMOTE
+DOMAIN-KEYWORD,domain:twitch.tv,REMOTE
+DOMAIN-KEYWORD,domain:wikileaks.org,REMOTE
+DOMAIN-KEYWORD,domain:naver.com,REMOTE
+DOMAIN-KEYWORD,domain:whatsapp.net,REMOTE
 
 [DnsHost]
 // Static DNS map that functions in the same way as /etc/hosts.
